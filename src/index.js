@@ -11,7 +11,8 @@ root.render(
     domain="dev-besio5tqfkhynfhb.us.auth0.com"
     clientId="zs79JTZH4C3hrX2Lz4HcYl2xlbM5c8ti"
     authorizationParams={{
-      redirect_uri: "http://localhost:3000/dashboard",
+      redirect_uri:
+        "https://react-dashboard-assignmentopeninapp.netlify.app/dashboard",
     }}
   >
     <BrowserRouter>
