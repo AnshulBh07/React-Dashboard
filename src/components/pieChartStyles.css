@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-pieChart {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 4px 4px 20px 0px #0000001a;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 55em) {
+  .container-pieChart {
+    width: 100%;
+  }
+}

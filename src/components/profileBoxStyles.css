@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-profilebox {
+  height: 100%;
+  width: 50%;
+  border-radius: 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 4px 4px 20px 0px #0000001a;
+}
+
+.container-profile-btn {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: grid;
+  border-radius: 20px;
+  border: none;
+  place-items: center;
+  border: none;
+  padding: 2rem;
+}
+
+.container-profile-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.container-profile-btn .plus-icon {
+  width: 4rem;
+  height: 4rem;
+  color: #ebebeb;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.sub-container > p {
+  font-size: 0.8rem;
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 55em) {
+  .container-profilebox {
+    width: 100%;
+  }
+}

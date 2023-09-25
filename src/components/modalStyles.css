@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Montserrat:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal-background {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.modal-container {
+  width: 25rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 1px 0px #00000033;
+  box-shadow: 0px 0px 32px -8px #0000001f;
+  box-shadow: 0px 32px 32px -8px #00000014;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-container .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.title > button {
+  height: 1.3rem;
+  width: 1.5rem;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.modal-container .body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0e0;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.modal-container .title > p {
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Figtree", sans-serif;
+}
+
+.input__field > p {
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Figtree", sans-serif;
+}
+
+.body .input__field > input {
+  margin-top: 0.5rem;
+  width: 100%;
+  color: #000000;
+  padding: 0.5rem;
+  border: 1px solid #e0e0e0e0;
+  border-radius: 5px;
+}
+
+.body .input__field > input::placeholder {
+  color: #999ca0;
+}
+
+.subHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.basic {
+  width: 50%;
+}
+
+.basic > p {
+  text-align: center;
+  font-family: Figtree;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.basic > hr {
+  height: 0.2rem;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.contact {
+  width: 50%;
+}
+
+.contact > p {
+  text-align: center;
+  font-family: Figtree;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.contact > hr {
+  height: 0.2rem;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1rem;
+  gap: 0.7rem;
+}
+
+.footer > button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0e0;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: "Figtree", sans-serif;
+}
+
+.footer .next-btn {
+  background-color: #3f84f8;
+  color: #ffffff;
+}
+
+.footer .back {
+  border: 1px solid black;
+}
+
+.input__field > p {
+  text-align: left;
+  font-family: "Figtree", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.input__field > p > span {
+  color: #999ca0;
+}
+
+@media screen and (max-width: 55em) {
+  .modal-container {
+    width: 19rem;
+  }
+
+  .modal-container .title > p {
+    font-size: 0.9rem;
+  }
+
+  .basic > p {
+    font-size: 0.8rem;
+  }
+
+  .contact > p {
+    font-size: 0.8rem;
+  }
+
+  .input__field > p {
+    font-size: 0.8rem;
+  }
+}
